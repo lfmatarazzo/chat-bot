@@ -1,0 +1,54 @@
+[
+    {
+        "idx" : "beach_step1",
+        "messageText" : "Qual tipo de praia você gosta?",
+        "quick_steps" : [
+            {
+                "content_type" : "text",
+                "title" : "Populares",
+                "payload" : "POPULAR_BEACHES_CALLBACK"
+            },
+            {
+                "content_type" : "text",
+                "title" : "Desertas",
+                "payload" : "ISOLATED_BEACHES_CALLBACK"
+            },
+            {
+                "content_type" : "text",
+                "title" : "Surfe",
+                "payload" : "SURF_BEACHES_CALLBACK"
+            },            
+            {
+                "content_type" : "text",
+                "title" : "Nudismo",
+                "payload" : "NUDISM_BEACHES_CALLBACK"
+            }
+        ]
+    }, 
+    {
+        "idx" : "hotel_step1",
+        "messageText" : "Qual tipo de hospedagem você deseja?",
+        "quick_steps" : [
+            {
+                "content_type" : "text",
+                "title" : "Hotéis",
+                "payload" : "CHEAP_HOTELS_CALLBACK"
+            },
+            {
+                "content_type" : "text",
+                "title" : "Hostels",
+                "payload" : "HOSTELS_CALLBACK"
+            },
+            {
+                "content_type" : "text",
+                "title" : "Pousadas",
+                "payload" : "POUSADAS_CALLBACK"
+            },
+            {
+                "content_type" : "text",
+                "title" : "Luxuosas",
+                "payload" : "LUXURY_HOTELS_CALLBACK"
+            }
+        ]
+    }
+]

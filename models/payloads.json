@@ -1,0 +1,12 @@
+[
+    {
+        "payload" : "BEACH_SUGGESTION_MENU",
+        "type" : "quick",
+        "reply" : "beach_step1"
+    }, 
+    {
+        "payload" : "HOTEL_SUGGESTION_MENU",
+        "type" : "quick",
+        "reply" : "hotel_step1"
+    }
+]
